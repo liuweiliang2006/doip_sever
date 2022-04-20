@@ -1,0 +1,1174 @@
+!SESSION 2020-12-11 17:46:20.775 -----------------------------------------------
+eclipse.buildId=1.0.0.201906241938
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.nxp.s32ds.cle.e200.mbs 4 0 2020-12-11 17:46:22.002
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.e200.mbs [78]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911111356"; osgi.identity="com.nxp.s32ds.cle.e200.mbs"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.cle.mpc.dev 4 0 2020-12-11 17:46:22.029
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.mpc.dev [95]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911281229"; osgi.identity="com.nxp.s32ds.cle.mpc.dev"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.cle.spt.core 4 0 2020-12-11 17:46:22.029
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.spt.core [152]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911151410"; osgi.identity="com.nxp.s32ds.cle.spt.core"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.cle.spt.mbs 4 0 2020-12-11 17:46:22.029
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.spt.mbs [153]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911151410"; osgi.identity="com.nxp.s32ds.cle.spt.mbs"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.cle.spt.model 4 0 2020-12-11 17:46:22.029
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.spt.model [154]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911151410"; osgi.identity="com.nxp.s32ds.cle.spt.model"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.cle.spt.sdk 4 0 2020-12-11 17:46:22.029
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.spt.sdk [155]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911151410"; osgi.identity="com.nxp.s32ds.cle.spt.sdk"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.cle.spt.ui.navigator 4 0 2020-12-11 17:46:22.029
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.nxp.s32ds.cle.spt.ui.navigator [162]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201911151410"; osgi.identity="com.nxp.s32ds.cle.spt.ui.navigator"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1599)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.s32ds.rcp.collateral.server 1 0 2020-12-11 17:47:10.038
+!MESSAGE Port 8087 is busy
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-11 17:47:10.210
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2020-12-11 17:47:12.210
+!MESSAGE Load SDKs, sec.: 0.284
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2020-12-11 17:47:12.273
+!MESSAGE Init SDKs, sec.: 0.349
+
+!ENTRY com.nxp.s32ds.cle.ide.collateral.core 2 0 2020-12-11 17:47:12.821
+!MESSAGE Resource id s32ds.collaterals.power.tutorials.install.win.river.plugin not found in registry and file
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.118
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.118
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.118
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.118
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.134
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.134
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.134
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.134
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.212
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.212
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.212
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.212
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.227
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.305
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.368
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.368
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.368
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.368
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.383
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.383
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.383
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.383
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.570
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.585
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.585
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.585
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.585
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.601
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.632
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.663
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.663
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.663
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.663
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.679
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.726
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.726
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.726
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.726
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.741
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.741
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.741
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.741
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.788
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.788
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.788
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.788
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.804
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.804
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.804
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.804
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.835
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.866
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.882
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.882
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.882
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.882
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.932
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.933
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.933
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.933
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.935
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.935
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.935
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.935
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.978
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.978
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.978
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.979
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.981
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.981
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.981
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.981
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.997
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.997
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.997
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:17.997
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.023
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.023
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.023
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.024
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.045
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.045
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.045
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.045
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.060
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.060
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.060
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.060
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.092
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.092
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.092
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.092
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.138
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.185
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.185
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.185
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.185
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.217
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.217
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.217
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.217
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.542
+!MESSAGE Actions have been registered for SDK S32R372_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.612
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.630
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.630
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.630
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.630
+!MESSAGE Actions have been registered for SDK S32R274_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.704
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.704
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.704
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.704
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.720
+!MESSAGE Actions have been registered for SDK S32R264_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.782
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.782
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.782
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.782
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.782
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.782
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.798
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.798
+!MESSAGE Actions have been registered for SDK MPC5777C_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.829
+!MESSAGE Actions have been registered for SDK MPC5775E_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.876
+!MESSAGE Actions have been registered for SDK MPC5775B_SDK_Z7_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.915
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.915
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.915
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.915
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.922
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.922
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.922
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.922
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.928
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.929
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.929
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.929
+!MESSAGE Actions have been registered for SDK MPC5748G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.957
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.957
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.958
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.958
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.964
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.964
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.964
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.964
+!MESSAGE Actions have been registered for SDK MPC5748C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:18.991
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.009
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.009
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.010
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.010
+!MESSAGE Actions have been registered for SDK MPC5747G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.040
+!MESSAGE Actions have been registered for SDK MPC5747C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.076
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.076
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.076
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.076
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.078
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.078
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.078
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.078
+!MESSAGE Actions have been registered for SDK MPC5746R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.109
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.109
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.109
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.109
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.125
+!MESSAGE Actions have been registered for SDK MPC5746G_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.172
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.172
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.172
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.172
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.188
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.188
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.188
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.188
+!MESSAGE Actions have been registered for SDK MPC5746C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.219
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.219
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.219
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.219
+!MESSAGE Actions have been registered for SDK MPC5746B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.250
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.250
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.250
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.266
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_0_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.266
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.266
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.266
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.266
+!MESSAGE Actions have been registered for SDK MPC5745R_SDK_Z4_1_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.328
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.328
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.328
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.328
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.344
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.344
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.344
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.344
+!MESSAGE Actions have been registered for SDK MPC5745C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.359
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.359
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.359
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.359
+!MESSAGE Actions have been registered for SDK MPC5745B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.375
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.375
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.375
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.375
+!MESSAGE Actions have been registered for SDK MPC5744P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.406
+!MESSAGE Actions have been registered for SDK MPC5744C_SDK_Z2_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.438
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.438
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.438
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.438
+!MESSAGE Actions have been registered for SDK MPC5744B_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.453
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.453
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.453
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.453
+!MESSAGE Actions have been registered for SDK MPC5743R_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.484
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.484
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.484
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.484
+!MESSAGE Actions have been registered for SDK MPC5743P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.517
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.517
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.518
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.518
+!MESSAGE Actions have been registered for SDK MPC5742P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.554
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.554
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.554
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.3_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2020-12-11 17:47:19.554
+!MESSAGE Actions have been registered for SDK MPC5741P_SDK_Z4_3.0.3_PATH.

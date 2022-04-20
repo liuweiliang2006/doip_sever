@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.core.variables.valueVariables=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<valueVariables>\r\n<valueVariable description\="Location of GNU utils" name\="MSYS_LOC" readOnly\="false" value\="${eclipse_home}../S32DS/build_tools/msys32/usr/bin"/>\r\n<valueVariable description\="Location of the external SDK descriptors" name\="S32DS_EXTERNAL_SDK_DESCRIPTORS_DIR" readOnly\="false"/>\r\n</valueVariables>\r\n

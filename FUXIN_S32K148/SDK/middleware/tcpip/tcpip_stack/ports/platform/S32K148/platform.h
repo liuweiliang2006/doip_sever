@@ -1,0 +1,48 @@
+/*
+ * Copyright 2017 NXP
+ * All rights reserved.
+ *
+ * THIS SOFTWARE IS PROVIDED BY NXP "AS IS" AND ANY EXPRESSED OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ * IN NO EVENT SHALL NXP OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+ * THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+/**
+ * @page misra_violations MISRA-C:2012 violations
+ *
+ */
+#include "device_registers.h"
+#include "pin_mux.h"
+#include "clockMan1.h"
+
+#ifndef PLATFORM_H
+#define PLATFORM_H
+
+#if defined(__NEWLIB__)
+#include <sys/time.h>
+#elif defined(__EWL__)
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunknown-pragmas"
+#include <time.h>
+#pragma GCC diagnostic pop
+#endif
+
+#ifdef BYTE_ORDER
+#undef BYTE_ORDER
+#define BYTE_ORDER LITTLE_ENDIAN
+#else
+#define BYTE_ORDER LITTLE_ENDIAN
+#endif
+
+status_t platform_init(void);
+
+#endif /* PLATFORM_H */
